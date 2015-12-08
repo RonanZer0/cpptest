@@ -1,14 +1,14 @@
 #include <iostream>
 
 int main(int argc, char const *argv[]) {
-	std::cout << "cout";
-	printf("printf");
+	std::cout << "cout\n";
+	printf("printf\n");
+	cpp();
 	return 0;
 }
 
-int test() {
-	for (int w = 0; w < 9999; w++) {
-		// do nothing, because...
-		// w stands for WASTE!
+void cpp() {
+	for (int C = 0; C < 12; C++) {
+		std::cout<< "C++;\n";
 	}
 }
